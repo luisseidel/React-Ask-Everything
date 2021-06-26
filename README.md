@@ -1,12 +1,8 @@
 <h1 align="center">Let me ask!</h1>
 
 <div>
-    <div align="left">
-        <img src="./src/assets/images/letmeask-white.png">
-    </div>
-    <div align="right">
-        <img src="./src/assets/images/letmeask-dark.png">
-    </div>
+    <img src="./src/assets/images/letmeask-white.png">
+    <img src="./src/assets/images/letmeask-dark.png">
 </div>
 
 <hr>
@@ -87,6 +83,7 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 
 <details>
 <summary>Linux</summary>
+    
     1. Install nodejs
     sudo apt-get install curl python-software-properties software-properties-common &&
     curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - &&
