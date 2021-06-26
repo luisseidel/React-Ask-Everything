@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./src/assets/images/logo.svg">
+    <img src="./src/assets/images/logo-white.svg">
 </div>
 
 
@@ -8,7 +8,8 @@
     <a href="#dart-propósito-e-funcionamento">Propósito e Funcionamento</a> &#xa0; | &#xa0; 
     <a href="#wrench-tecnologias-utilizadas">Tecnologias Utilizadas</a> &#xa0; | &#xa0; 
     <a href="#checkered_flag-instalação">Executando o projeto localmente</a> &#xa0; | &#xa0;
-    <a href="#mag_right-screenshots">Screenshots</a>
+    <a href="#mag_right-screenshots">Screenshots</a> &#xa0; | &#xa0;
+    <a href="todo">To-do</a>
 </p>
 
 
@@ -114,7 +115,21 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 </details>
 
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<h2> :clipboard: To-do</h2>
+
+<ul>
+	<li>Atomic Design</li>
+    <li>Mobile First</li>
+</ul>
 
 
-Production link: [https://letmeask-c5ecc.web.app/](https://letmeask-c5ecc.web.app/)
+
+
+
+<h2> :link: Links </h2>
+
+Local Host: [http://localhost:3000](http://localhost:3000) to open the local app in your browser.
+
+
+Production: [https://letmeask-c5ecc.web.app/](https://letmeask-c5ecc.web.app/)
