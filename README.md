@@ -16,23 +16,27 @@
 
 <h2 align="center"> :dart: Propósito e Funcionamento</h2>
 
-<h3 align="left">Propósito e explicações</h3>
 <p>
     Esta aplicação tem o intuito de criar salas de perguntas e respostas
     para que qualquer pessoa possa tirar dúvidas sobre qualquer assunto
     de seu interesse.
 </p>
-<br>
+
 <hr>
-<br>
-<h3 align="left">Funcionamento da aplicação</h3>
-<p>Com uma conta Google, qualquer usuário poderá criar uma sala no estilo Perguntas & Respostas.</p>
-<p>Outros usuários também terão a possibilidade de entrar em uma sala para poder realizar perguntas.</p>
-<p>A pessoa que criou a sala é a administradora da mesma, tendo mais privilégios que o usuário comum que entrou na sala.</p>
-<p>Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight na pergunta.</p>
-<p>Os demais usuários poderão dar um like nas perguntas.</p>
-<p>Para poder compartilhar sua sala com os demais usuários, o criador da sala</p>
-<p>ou até os próprios usuários poderão compartilhar o id dela, que se encontra no canto superior direito.</p>
+
+<p>
+Com uma conta Google, qualquer usuário poderá criar uma sala no estilo Perguntas & Respostas.
+Outros usuários também terão a possibilidade de entrar em uma sala para poder realizar perguntas.
+</p>
+<p>
+A pessoa que criou a sala é a administradora da mesma, tendo mais privilégios que o usuário comum que entrou na sala.
+Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight na pergunta.
+</p>
+<p>
+Os demais usuários poderão dar um like nas perguntas.
+O compartilhamento da sala pode ser feito a partir do id dela, que se encontra no canto superior direito.
+</p>
+
 <hr>
 
 <h2> :wrench: Tecnologias Utilizadas </h2>
