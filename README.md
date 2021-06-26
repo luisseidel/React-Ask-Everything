@@ -1,8 +1,7 @@
 <h1 align="center">Let me ask!</h1>
 
 <div>
-    <img src="./src/assets/images/letmeask-white.png">
-    <img src="./src/assets/images/letmeask-dark.png">
+    <img src="./src/assets/images/logo.svg">
 </div>
 
 <hr>
@@ -99,6 +98,17 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
     yarn start
 
 </details>
+
+<details>
+<summary>Screen Shots</summary>
+    
+<div>
+    <img src="./src/assets/images/letmeask-white.png">
+    <img src="./src/assets/images/letmeask-dark.png">
+</div>
+
+</details>
+
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
