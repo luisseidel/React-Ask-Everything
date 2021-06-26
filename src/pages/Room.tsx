@@ -1,14 +1,18 @@
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router';
 import { Question } from '../components/Question';
-import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../services/firebase';
+import { useRoom } from '../hooks/useRoom';
+import { useHistory } from 'react-router-dom';
+import { useEffect } from 'react';
+import { ToogleSwitch } from '../components/ToogleSwitch';
+import { useTheme } from '../hooks/useTheme';
+import { Logo } from '../components/Logo';
 
 import '../styles/room.scss';
-import { useRoom } from '../hooks/useRoom';
 
 type RoomParams = {
     id: string;
@@ -20,6 +24,15 @@ export function Room() {
     const [newQuestion, setNewQuestion] = useState('');
     const roomId = params.id;
     const { title, questions } = useRoom(roomId);
+    const history = useHistory();
+    const { theme, toogleTheme } = useTheme();
+
+    useEffect(() => {
+        if (!user) {
+            history.push('/');
+        }
+    }, [user, history]);
+
     
     async function handleLikeQuestion(questionId: string, likeId: string | undefined) {
         if (likeId) {
@@ -56,11 +69,16 @@ export function Room() {
     }
 
     return (
-        <div id="page-room">
+        <div id="page-room" className={theme}>
             <header>
                 <div className="content">
-                    <img src={ logoImg } alt="Letmeask" />
+                    <Logo/>
+                   
                     <RoomCode code={roomId} />
+
+                    <div className="toogle-theme-room">
+                        <ToogleSwitch />
+                    </div>
                 </div>
             </header>
 

@@ -1,4 +1,5 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
+import loadingGif from '../assets/images/loading50.gif';
 import { auth, firebase } from "../services/firebase";
 
 type User = {
@@ -21,6 +22,7 @@ export const AuthContext = createContext({} as AuthContextType);
 
 export function AuthContextProvider(props: AuthContextProviderProps) {
     const [user, setUser] = useState<User>();
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		const unsubscribe = auth.onAuthStateChanged(user => {
@@ -36,6 +38,8 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 					name: displayName,
 					avatar: photoURL
 				});
+
+				setLoading(false);
 			}
 		})
 
@@ -48,8 +52,6 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 	async function signInWithGoogle() {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		const result = await auth.signInWithPopup(provider);
-
-		console.log("Entrou 1");
 
 		if (result.user) {
 			const {displayName, photoURL, uid} = result.user;
@@ -64,6 +66,14 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 				avatar: photoURL
 			});
 		}
+	}
+
+	if (loading) {
+		return (
+			<div className="center-loading">
+				<img src={loadingGif} alt="Carregando" />
+			</div>
+		)
 	}
 
     return (

@@ -12,3 +12,63 @@ body {
 body, input, button, textarea {
     font: 400 16px 'Roboto', sans-serif;
 }
+
+.dark {
+    background: #29292e;
+    color: #f8f8f8;
+    transition: background ease-in-out 0.4s;
+    height: 100vh;
+
+    h1, h2, h3, h4, h5, h6, p, span {
+        color: #f8f8f8 !important;
+    }
+
+    .content > div button {
+        background: #333;
+        color: #f8f8f8;
+        transition: background ease-in-out 0.4s;
+    }
+
+    .room-code {
+        background: #333;
+        transition: background ease-in-out 0.4s;
+    }
+
+    .question {
+        box-shadow: 0 2px 12px rgba(255,255,255,0.3);
+
+        p {
+            color: #29292e !important;
+        }
+
+        .question-buttons button span {
+            color: #737380 !important;
+        }
+    }
+
+    footer .user-info span {
+        color: #737380 !important;
+    }
+}
+
+.light {
+    background: #f8f8f8;
+    color: #29292e;
+    transition: background ease-in-out 0.4s;
+    height: 100vh;
+}
+
+.toogle-theme {
+    position: absolute;
+    top: 6%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.center-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}

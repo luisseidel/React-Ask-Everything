@@ -1,28 +1,30 @@
 import { useParams } from 'react-router';
 import { Question } from '../components/Question';
-import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
-//import { useAuth } from '../hooks/useAuth';
+import { useRoom } from '../hooks/useRoom';
+import { database } from '../services/firebase';
+import { useHistory } from 'react-router-dom';
+import { ToogleSwitch } from '../components/ToogleSwitch';
+import { useTheme } from '../hooks/useTheme';
+import { Logo } from '../components/Logo';
+
 import deleteImg from '../assets/images/delete.svg';
 import checkImg from '../assets/images/check.svg';
 import answerImg from '../assets/images/answer.svg';
 
 import '../styles/room.scss';
-import { useRoom } from '../hooks/useRoom';
-import { database } from '../services/firebase';
-import { useHistory } from 'react-router-dom';
 
 type RoomParams = {
     id: string;
 }
 
 export function AdminRoom() {
-    //const {user} = useAuth();
     const history = useHistory();
     const params = useParams<RoomParams>();
     const roomId = params.id;
     const { title, questions } = useRoom(roomId);
+    const { theme, toogleTheme } = useTheme();
     
     async function handleEndRoom() {
         await database.ref(`rooms/${roomId}`).update({
@@ -52,13 +54,16 @@ export function AdminRoom() {
      
 
     return (
-        <div id="page-room">
+        <div id="page-room" className={theme}>
             <header>
                 <div className="content">
-                    <img src={ logoImg } alt="Letmeask" />
-                    <div >
+
+                    <Logo/>
+                    
+                    <div>
                         <RoomCode code={roomId} />
                         <Button isOutlined onClick={handleEndRoom}>Encerrar Sala</Button>
+                        <ToogleSwitch />
                     </div>
                 </div>
             </header>
