@@ -9,7 +9,8 @@
     <a href="#wrench-tecnologias-utilizadas">Tecnologias Utilizadas</a> &#xa0; | &#xa0; 
     <a href="#checkered_flag-instalação">Executando o projeto localmente</a> &#xa0; | &#xa0;
     <a href="#mag_right-screenshots">Screenshots</a> &#xa0; | &#xa0;
-    <a href="todo">To-do</a>
+    <a href="#clipboard-to-do">To-do</a> &#xa0; | &#xa0;
+    <a href="#link-links"></a>
 </p>
 
 
