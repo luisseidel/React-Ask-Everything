@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+<h1 align="center">Let me ask!</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <img width="460" height="300" src="./src/assets/images/letmeask.png">
+</div>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+<p align="center">
+    <a href="#dart-propósito-e-funcionamento">Propósito e Funcionamento</a> &#xa0; | &#xa0; 
+    <a href="#wrench-compatibilidade-e-requisitos">Compatibilidade & Requisitos</a> &#xa0; | &#xa0; 
+    <a href="#checkered_flag-instalação">Instalação & execução do projeto localmente</a> &#xa0; | &#xa0; 
+</p>
 
-### `yarn start`
+<hr>
+## :dart: Propósito e Funcionamento
+<h2 align="center"> :dart: Propósito e Funcionamento</h2>
 
-Runs the app in the development mode.\
+<h3 align="left">Propósito e explicações</h3>
+<p>
+    Esta aplicação tem o intuito de criar salas de perguntas e respostas
+    para que qualquer pessoa possa tirar dúvidas sobre qualquer assunto
+    de seu interesse.
+</p>
+<br>
+<hr>
+<br>
+<h3 align="left">Funcionamento da aplicação</h3>
+<p>
+    Com uma conta Google, qualquer usuário poderá criar uma sala no estilo Perguntas & Respostas.
+    Outros usuários também terão a possibilidade de entrar em uma sala para poder realizar perguntas.
+    A pessoa que criou a sala é a administradora da mesma, tendo mais privilégios que o usuário comum que entrou na sala.
+    Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight na pergunta.
+    Os demais usuários poderão dar um like nas perguntas.
+    Para poder compartilhar sua sala com os demais usuários, o criador da sala
+    ou até os próprios usuários poderão compartilhar o id dela, que se encontra no canto superior direito.
+</p>
+<hr>
+
+<details>
+<summary>Instalação</summary>
+this is hidden
+</details>
+
+## :wrench: Compatibilidade e Requisitos
+
+
+## :checkered_flag: Instalação ##
+
+### Instalando softwares e dependências
+1. Download and install Chocolatey for Windows:
+```
+Get-ExecutionPolicy
+
+// if the output of this method is Restricted then:
+Set-ExecutionPolicy AllSigned
+
+// install chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+2. Install nodejs
+```
+choco install -y --force nodejs
+```
+
+3. Install Yarn:
+```
+npm install --global yarn
+```
+
+4. Run:
+```
+yarn start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
