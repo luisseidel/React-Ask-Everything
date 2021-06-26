@@ -122,6 +122,7 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 	<li>Atomic Design</li>
     <li>Mobile First</li>
     <li>Continuous Integration with Github Actions</li>
+    <li>Melhorar Página 404</li>
 </ul>
 
 
