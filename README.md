@@ -95,3 +95,6 @@ O compartilhamento da sala pode ser feito a partir do id dela, que se encontra n
 </details>
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+Production link: [https://letmeask-c5ecc.web.app/](https://letmeask-c5ecc.web.app/)
