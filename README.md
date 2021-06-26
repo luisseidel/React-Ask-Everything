@@ -8,12 +8,12 @@
 
 <p align="center">
     <a href="#dart-propósito-e-funcionamento">Propósito e Funcionamento</a> &#xa0; | &#xa0; 
-    <a href="#wrench-compatibilidade-e-requisitos">Compatibilidade & Requisitos</a> &#xa0; | &#xa0; 
-    <a href="#checkered_flag-instalação">Instalação & execução do projeto localmente</a> &#xa0; | &#xa0; 
+    <a href="#wrench-compatibilidade-e-requisitos">Tecnologias Utilizadas</a> &#xa0; | &#xa0; 
+    <a href="#checkered_flag-executando">Executando o projeto localmente</a>
 </p>
 
 <hr>
-## :dart: Propósito e Funcionamento
+
 <h2 align="center"> :dart: Propósito e Funcionamento</h2>
 
 <h3 align="left">Propósito e explicações</h3>
@@ -37,41 +37,73 @@
 </p>
 <hr>
 
+<h2> :wrench: Tecnologias Utilizadas </h2>
+[x] Windows
+[x] Node
+[x] Yarn
+[x] VSCode
+[x] React
+[x] Classnames
+[x] Typescript
+
+<h2> :checkered_flag: Instalação </h2>
+
 <details>
-<summary>Instalação</summary>
-this is hidden
+<summary>Windows</summary>
+    ### Instalando softwares e dependências
+    1. Download and install Chocolatey for Windows:
+    ```
+    Get-ExecutionPolicy
+
+    // if the output of this method is Restricted then:
+    Set-ExecutionPolicy AllSigned
+
+    // install chocolatey
+    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
+
+    2. Install nodejs
+    ```
+    choco install -y --force nodejs
+    ```
+
+    3. Install Yarn:
+    ```
+    npm install --global yarn
+    ```
+
+    4. Run:
+    ```
+    yarn start
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 </details>
 
-## :wrench: Compatibilidade e Requisitos
 
+<details>
+<summary>Linux</summary>
+    ### Instalando softwares e dependências
 
-## :checkered_flag: Instalação ##
+    1. Install nodejs
+    ```bash
+    sudo apt-get install curl python-software-properties software-properties-common &&
+    curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - &&
+    sudo apt-get install nodejs 
+    ```
 
-### Instalando softwares e dependências
-1. Download and install Chocolatey for Windows:
-```
-Get-ExecutionPolicy
+    2. Install Yarn:
+    ```bash
+    sudo npm install yarn -g
+    ```
 
-// if the output of this method is Restricted then:
-Set-ExecutionPolicy AllSigned
+    3. Download this project as .zip and navigate to the folder where yout extract it
+    ```bash
+    cd /path/to/the/project
+    ```
 
-// install chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-
-2. Install nodejs
-```
-choco install -y --force nodejs
-```
-
-3. Install Yarn:
-```
-npm install --global yarn
-```
-
-4. Run:
-```
-yarn start
-```
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+    3. Run:
+    ```
+    yarn start
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</details>
