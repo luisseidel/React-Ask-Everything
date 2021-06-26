@@ -38,72 +38,56 @@
 <hr>
 
 <h2> :wrench: Tecnologias Utilizadas </h2>
-[x] Windows
-[x] Node
-[x] Yarn
-[x] VSCode
-[x] React
-[x] Classnames
-[x] Typescript
+
+    [x] Windows
+    [x] Node
+    [x] Yarn
+    [x] VSCode
+    [x] React
+    [x] Classnames
+    [x] Typescript
 
 <h2> :checkered_flag: Instalação </h2>
 
 <details>
 <summary>Windows</summary>
-    ### Instalando softwares e dependências
-    1. Download and install Chocolatey for Windows:
-    ```
+
+    1. Download and install Chocolatey:
     Get-ExecutionPolicy
-
-    // if the output of this method is Restricted then:
     Set-ExecutionPolicy AllSigned
-
-    // install chocolatey
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    ```
 
     2. Install nodejs
-    ```
     choco install -y --force nodejs
-    ```
 
     3. Install Yarn:
-    ```
     npm install --global yarn
-    ```
+
+    3. Download this project as .zip and navigate to the folder where yout extract it
+    cd /path/to/the/project
 
     4. Run:
-    ```
     yarn start
-    ```
-    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 </details>
 
 
 <details>
 <summary>Linux</summary>
-    ### Instalando softwares e dependências
-
     1. Install nodejs
-    ```bash
     sudo apt-get install curl python-software-properties software-properties-common &&
     curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - &&
     sudo apt-get install nodejs 
-    ```
 
     2. Install Yarn:
-    ```bash
     sudo npm install yarn -g
-    ```
 
     3. Download this project as .zip and navigate to the folder where yout extract it
-    ```bash
     cd /path/to/the/project
-    ```
 
-    3. Run:
-    ```
+    4. Run:
     yarn start
-    ```
-    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 </details>
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
