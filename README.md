@@ -1,7 +1,12 @@
 <h1 align="center">Let me ask!</h1>
 
-<div align="center">
-    <img width="460" height="300" src="./src/assets/images/letmeask.png">
+<div>
+    <div align="left">
+        <img src="./src/assets/images/letmeask-white.png">
+    </div>
+    <div align="right">
+        <img src="./src/assets/images/letmeask-dark.png">
+    </div>
 </div>
 
 <hr>
@@ -35,6 +40,10 @@ Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight 
 <p>
 Os demais usuários poderão dar um like nas perguntas.
 O compartilhamento da sala pode ser feito a partir do id dela, que se encontra no canto superior direito.
+</p>
+
+<p>
+Foi implementado um switch de temas dark / light para quem não vive sem, como eu!
 </p>
 
 <hr>
