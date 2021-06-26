@@ -26,26 +26,24 @@
 <hr>
 <br>
 <h3 align="left">Funcionamento da aplicação</h3>
-<p>
-    Com uma conta Google, qualquer usuário poderá criar uma sala no estilo Perguntas & Respostas.
-    Outros usuários também terão a possibilidade de entrar em uma sala para poder realizar perguntas.
-    A pessoa que criou a sala é a administradora da mesma, tendo mais privilégios que o usuário comum que entrou na sala.
-    Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight na pergunta.
-    Os demais usuários poderão dar um like nas perguntas.
-    Para poder compartilhar sua sala com os demais usuários, o criador da sala
-    ou até os próprios usuários poderão compartilhar o id dela, que se encontra no canto superior direito.
-</p>
+<p>Com uma conta Google, qualquer usuário poderá criar uma sala no estilo Perguntas & Respostas.</p>
+<p>Outros usuários também terão a possibilidade de entrar em uma sala para poder realizar perguntas.</p>
+<p>A pessoa que criou a sala é a administradora da mesma, tendo mais privilégios que o usuário comum que entrou na sala.</p>
+<p>Ela poderá excluir respostas, marcar como respondidas, ou ainda, dar highlight na pergunta.</p>
+<p>Os demais usuários poderão dar um like nas perguntas.</p>
+<p>Para poder compartilhar sua sala com os demais usuários, o criador da sala</p>
+<p>ou até os próprios usuários poderão compartilhar o id dela, que se encontra no canto superior direito.</p>
 <hr>
 
 <h2> :wrench: Tecnologias Utilizadas </h2>
-
-    [x] Windows
-    [x] Node
-    [x] Yarn
-    [x] VSCode
-    [x] React
-    [x] Classnames
-    [x] Typescript
+<ul>
+- [x] Windows
+- [x] Node
+- [x] Yarn
+- [x] VSCode
+- [x] React
+- [x] Classnames
+- [x] Typescript
 
 <h2> :checkered_flag: Instalação </h2>
 
