@@ -1,20 +1,19 @@
-<h1 align="center">Let me ask!</h1>
-
-<div>
+<div align="center">
     <img src="./src/assets/images/logo.svg">
 </div>
 
-<hr>
 
+<hr>
 <p align="center">
     <a href="#dart-propósito-e-funcionamento">Propósito e Funcionamento</a> &#xa0; | &#xa0; 
-    <a href="#wrench-compatibilidade-e-requisitos">Tecnologias Utilizadas</a> &#xa0; | &#xa0; 
-    <a href="#checkered_flag-executando">Executando o projeto localmente</a>
+    <a href="#wrench-tecnologias-utilizadas">Tecnologias Utilizadas</a> &#xa0; | &#xa0; 
+    <a href="#checkered_flag-instalação">Executando o projeto localmente</a> &#xa0; | &#xa0;
+    <a href="#mag_right-screenshots">Screenshots</a>
 </p>
 
-<hr>
 
-<h2 align="center"> :dart: Propósito e Funcionamento</h2>
+<hr>
+<h2 id="proposito" align="center"> :dart: Propósito e Funcionamento</h2>
 
 <p>
     Esta aplicação tem o intuito de criar salas de perguntas e respostas
@@ -64,16 +63,16 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
     Get-ExecutionPolicy
     Set-ExecutionPolicy AllSigned
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
+    
     2. Install nodejs
     choco install -y --force nodejs
-
+    
     3. Install Yarn:
     npm install --global yarn
-
+    
     3. Download this project as .zip and navigate to the folder where yout extract it
     cd /path/to/the/project
-
+    
     4. Run:
     yarn start
 
@@ -82,31 +81,36 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 
 <details>
 <summary>Linux</summary>
-    
+
     1. Install nodejs
     sudo apt-get install curl python-software-properties software-properties-common &&
     curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - &&
     sudo apt-get install nodejs 
-
+    
     2. Install Yarn:
     sudo npm install yarn -g
-
+    
     3. Download this project as .zip and navigate to the folder where yout extract it
     cd /path/to/the/project
-
+    
     4. Run:
     yarn start
 
 </details>
 
+<h2>
+    :mag_right: Screenshots
+</h2>
+
+
 <details>
 <summary>Screen Shots</summary>
-    
+
+
 <div>
     <img src="./src/assets/images/letmeask-white.png">
     <img src="./src/assets/images/letmeask-dark.png">
 </div>
-
 </details>
 
 
