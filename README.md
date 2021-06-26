@@ -41,13 +41,15 @@ O compartilhamento da sala pode ser feito a partir do id dela, que se encontra n
 
 <h2> :wrench: Tecnologias Utilizadas </h2>
 
-    [x] Windows
-    [x] Node
-    [x] Yarn
-    [x] VSCode
-    [x] React
-    [x] Classnames
-    [x] Typescript
+<ul>
+    <li>Windows</li>
+    <li>Node</li>
+    <li>Yarn</li>
+    <li>VSCode</li>
+    <li>React</li>
+    <li>Classnames</li>
+    <li>TypeScript</li>
+</ul>
 
 <h2> :checkered_flag: Instalação </h2>
 
