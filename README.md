@@ -126,7 +126,7 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
     <li>Criar variáveis no css para cores :heavy_check_mark: </li>
     <li>Barra de rolagem minimalista :heavy_check_mark:</li>
     <li>Animar botões :heavy_check_mark:</li>
-    <li>Mobile First</li>
+    <li>Mobile First :heavy_check_mark:</li>
     <li>Continuous Integration with Github Actions</li>
 </ul>
 
