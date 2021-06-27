@@ -120,9 +120,12 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 <h2> :clipboard: To-do</h2>
 
 <ul>
+    <li>Adicionar animação de loading :heavy_check_mark:</li>
 	<li>Melhorar estrutura de pastas e componentes :heavy_check_mark:</li>
     <li>Melhorar Página 404  :heavy_check_mark: </li>
     <li>Criar variáveis no css para cores :heavy_check_mark: </li>
+    <li>Barra de rolagem minimalista :heavy_check_mark:</li>
+    <li>Animar botões :heavy_check_mark:</li>
     <li>Mobile First</li>
     <li>Continuous Integration with Github Actions</li>
 </ul>

@@ -21,7 +21,8 @@ body, input, button, textarea {
     background: $darkMode;
     color: $white;
     transition: background ease-in-out 0.4s;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 
     h1, h2, h3, h4, h5, h6, p, span {
         color: $white !important;
@@ -59,7 +60,8 @@ body, input, button, textarea {
     background: $white;
     color: $darkMode;
     transition: background ease-in-out 0.4s;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .toogle-theme {
@@ -75,4 +77,24 @@ body, input, button, textarea {
     align-items: center;
     width: 100%;
     height: 100vh;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: $darkMode $darkMode;
+}
+  
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: $darkMode;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: $white;
+    border-radius: 20px;
+    border: 3px solid $darkMode;
 }
