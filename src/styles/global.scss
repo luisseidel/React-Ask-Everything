@@ -1,3 +1,7 @@
+$white: #f8f8f8;
+$darkMode: #29292e;
+$lightDark: #333;
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +9,8 @@
 }
 
 body {
-    background: #f8f8f8;
-    color: #29292e;
+    background: $white;
+    color: $darkMode;
 }
 
 body, input, button, textarea {
@@ -14,23 +18,23 @@ body, input, button, textarea {
 }
 
 .dark {
-    background: #29292e;
-    color: #f8f8f8;
+    background: $darkMode;
+    color: $white;
     transition: background ease-in-out 0.4s;
     height: 100vh;
 
     h1, h2, h3, h4, h5, h6, p, span {
-        color: #f8f8f8 !important;
+        color: $white !important;
     }
 
     .content > div button {
-        background: #333;
-        color: #f8f8f8;
+        background: $lightDark;
+        color: $white;
         transition: background ease-in-out 0.4s;
     }
 
     .room-code {
-        background: #333;
+        background: $lightDark;
         transition: background ease-in-out 0.4s;
     }
 
@@ -38,7 +42,7 @@ body, input, button, textarea {
         box-shadow: 0 2px 12px rgba(255,255,255,0.3);
 
         p {
-            color: #29292e !important;
+            color: $darkMode !important;
         }
 
         .question-buttons button span {
@@ -52,8 +56,8 @@ body, input, button, textarea {
 }
 
 .light {
-    background: #f8f8f8;
-    color: #29292e;
+    background: $white;
+    color: $darkMode;
     transition: background ease-in-out 0.4s;
     height: 100vh;
 }

@@ -2,10 +2,10 @@ import { FormEvent } from 'react';
 import { useState } from 'react';
 import { useHistory } from 'react-router';
 import { useAuth } from '../hooks/useAuth';
+import { useTheme } from '../hooks/useTheme';
 import { database } from '../services/firebase';
 import { Button } from '../components/Button/index';
 import { ToogleSwitch } from '../components/ToogleSwitch/index';
-import { useTheme } from '../hooks/useTheme';
 import { Logo } from '../components/Logo/index';
 
 import illustrationImg from '../assets/images/illustration.svg';

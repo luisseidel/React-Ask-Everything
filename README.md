@@ -121,9 +121,10 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 
 <ul>
 	<li>Melhorar estrutura de pastas e componentes :heavy_check_mark:</li>
-    <li>Mobile First  </li>
-    <li>Continuous Integration with Github Actions</li>
     <li>Melhorar Página 404  :heavy_check_mark: </li>
+    <li>Criar variáveis no css para cores :heavy_check_mark: </li>
+    <li>Mobile First</li>
+    <li>Continuous Integration with Github Actions</li>
 </ul>
 
 

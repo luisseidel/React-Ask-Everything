@@ -1,4 +1,7 @@
-/* The switch - the box around the slider */
+$inactiveBg: #ccc;
+$activeBg: #2196F3;
+$white: #f8f8f8;
+
 .theme-indicator {
     display: flex;
     flex-direction: row;
@@ -31,7 +34,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: #ccc;
+		background-color: $inactiveBg;
 		-webkit-transition: .4s;
 		transition: .4s;
 	}
@@ -43,17 +46,17 @@
 		width: 15px;
 		left: 4px;
 		bottom: 4px;
-		background-color: white;
+		background-color: $white;
 		-webkit-transition: .4s;
 		transition: .4s;
 	}
 
 	input:checked + .slider {
-		background-color: #2196F3;
+		background-color: $activeBg;
 	}
 
 	input:focus + .slider {
-		box-shadow: 0 0 1px #2196F3;
+		box-shadow: 0 0 1px $activeBg;
 	}
 
 	input:checked + .slider:before {
