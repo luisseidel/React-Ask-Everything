@@ -1,5 +1,5 @@
-import { useTheme } from '../hooks/useTheme';
-import '../styles/toggle-switch.scss';
+import { useTheme } from '../../hooks/useTheme';
+import './style.scss';
 
 export function ToogleSwitch() {
     const { theme, toogleTheme } = useTheme();

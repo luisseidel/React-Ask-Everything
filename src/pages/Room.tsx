@@ -1,16 +1,16 @@
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router';
 import { Question } from '../components/Question';
-import { Button } from '../components/Button';
+import { Button } from '../components/Button/index';
 import { RoomCode } from '../components/RoomCode';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../services/firebase';
 import { useRoom } from '../hooks/useRoom';
 import { useHistory } from 'react-router-dom';
 import { useEffect } from 'react';
-import { ToogleSwitch } from '../components/ToogleSwitch';
+import { ToogleSwitch } from '../components/ToogleSwitch/index';
 import { useTheme } from '../hooks/useTheme';
-import { Logo } from '../components/Logo';
+import { Logo } from '../components/Logo/index';
 
 import '../styles/room.scss';
 

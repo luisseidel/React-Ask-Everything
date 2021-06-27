@@ -1,1 +1,89 @@
-<h1>Page not Found</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>Letmeask</title>
+    <style>
+        * {
+            outline: none;
+            border: none;
+            padding: 0;
+            margin: 0;
+
+            font: 400 16px/25px 'Poppins';
+        }
+
+        .not-found {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+
+            background: #29292e;
+            color: #f8f8f8;
+        }
+
+        .texts {
+
+        }
+
+        .texts h1 {
+            font: 800 48px/60px 'Poppins', sans-serif;
+        }
+
+        .texts h2 {
+            font: 600 32px/60px 'Poppins', sans-serif;
+        }
+
+        .btn-container {
+            display: inline-block;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .btn-goback {
+            border: 2px solid #835afd;
+            border-radius: 8px;
+            padding: 10px 20px;
+
+            color: #f8f8f8;
+            font: 600 24px/48px 'Roboto', sans-serif;
+            text-decoration: none;
+        }
+
+        .btn-goback:hover {
+            box-shadow: #f8f8f8 5px 5px 2px;
+            transition: box-shadow ease-in-out 0.4s;
+        }
+
+        .btn-container:hover {
+            box-shadow: #835afd -5px -5px 2px;
+            transition: box-shadow ease-in-out 0.4s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="not-found">
+        <div>
+            <img src="./404.png" alt="Crashed Ship">
+        </div>
+    
+        <div class="texts">
+            <h1>Oops!</h1>
+            <h2>Appear this page does not exists</h2>
+            
+            <div class="btn-container">
+                <a href="/" class="btn-goback">Go back Home</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

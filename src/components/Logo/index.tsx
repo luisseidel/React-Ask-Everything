@@ -1,6 +1,6 @@
-import logoDark from '../assets/images/logo.svg';
-import logoWhite from '../assets/images/logo-white.svg';
-import { useTheme } from '../hooks/useTheme';
+import logoDark from '../../assets/images/logo.svg';
+import logoWhite from '../../assets/images/logo-white.svg';
+import { useTheme } from '../../hooks/useTheme';
 
 export function Logo() {
     const { theme, toogleTheme } = useTheme();

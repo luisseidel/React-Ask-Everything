@@ -1,11 +1,11 @@
 import { FormEvent } from 'react';
-import { Logo } from '../components/Logo';
-import { Button } from '../components/Button';
+import { Logo } from '../components/Logo/index';
+import { Button } from '../components/Button/index';
 import { Link, useHistory } from 'react-router-dom';
 import { useState } from 'react';
 import { database } from '../services/firebase';
 import { useAuth } from '../hooks/useAuth';
-import { ToogleSwitch } from '../components/ToogleSwitch';
+import { ToogleSwitch } from '../components/ToogleSwitch/index';
 import { useTheme } from '../hooks/useTheme';
 import illustrationImg from '../assets/images/illustration.svg';
 import '../styles/auth.scss';

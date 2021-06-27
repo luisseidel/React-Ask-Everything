@@ -120,10 +120,10 @@ Foi implementado um switch de temas dark / light para quem não vive sem, como e
 <h2> :clipboard: To-do</h2>
 
 <ul>
-	<li>Atomic Design</li>
-    <li>Mobile First</li>
+	<li>Melhorar estrutura de pastas e componentes :heavy_check_mark:</li>
+    <li>Mobile First  </li>
     <li>Continuous Integration with Github Actions</li>
-    <li>Melhorar Página 404</li>
+    <li>Melhorar Página 404  :heavy_check_mark: </li>
 </ul>
 
 

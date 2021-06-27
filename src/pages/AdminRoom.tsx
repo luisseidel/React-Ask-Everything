@@ -1,13 +1,13 @@
 import { useParams } from 'react-router';
-import { Question } from '../components/Question';
-import { Button } from '../components/Button';
-import { RoomCode } from '../components/RoomCode';
+import { Question } from '../components/Question/index';
+import { Button } from '../components/Button/index';
+import { RoomCode } from '../components/RoomCode/index';
 import { useRoom } from '../hooks/useRoom';
 import { database } from '../services/firebase';
 import { useHistory } from 'react-router-dom';
-import { ToogleSwitch } from '../components/ToogleSwitch';
+import { ToogleSwitch } from '../components/ToogleSwitch/index';
 import { useTheme } from '../hooks/useTheme';
-import { Logo } from '../components/Logo';
+import { Logo } from '../components/Logo/index';
 
 import deleteImg from '../assets/images/delete.svg';
 import checkImg from '../assets/images/check.svg';
