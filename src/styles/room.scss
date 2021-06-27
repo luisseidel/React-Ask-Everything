@@ -5,6 +5,10 @@ $darkGrey: #737380;
 $pink: #e559f9;
 $darkMode: #29292e;
 
+$bpSmarth: 320px;
+$bpTablet: 768px;
+$bpDesktop: 1024px;
+
 
 #page-room {
     header {
@@ -18,6 +22,7 @@ $darkMode: #29292e;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: row;
 
         a > img {
             max-height: 45px;
@@ -121,4 +126,31 @@ $darkMode: #29292e;
         margin-top: 32px;
     }
 
+}
+
+
+@media screen and (min-width: $bpSmarth) and (max-width: $bpTablet) {
+    #page-room {
+        .content {
+            flex-direction: column;
+            gap: 15px;
+
+            a {
+                display: none;
+            }
+
+            .admin-btns {
+                flex-direction: column;
+                gap: 25px;
+
+                .theme-indicator {
+                    justify-content: center;
+                }
+            }
+        }
+
+        main {
+            padding: 0 15px 30px 15px;
+        }
+    }
 }

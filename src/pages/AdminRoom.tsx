@@ -60,7 +60,7 @@ export function AdminRoom() {
 
                     <Logo/>
                     
-                    <div>
+                    <div className="admin-btns">
                         <RoomCode code={roomId} />
                         <Button isOutlined onClick={handleEndRoom}>Encerrar Sala</Button>
                         <ToogleSwitch />

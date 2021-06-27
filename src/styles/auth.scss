@@ -5,9 +5,14 @@ $grey: #a8a8b3;
 $pink: #e559f9;
 $google: #ea4335;
 
+$bpSmarth: 320px;
+$bpTablet: 768px;
+$bpDesktop: 1024px;
+
 #page-auth {
     display: flex;
     align-items: stretch;
+    flex-direction: row;
     height: 100vh;
 
     aside {
@@ -144,6 +149,39 @@ $google: #ea4335;
             height: 1px;
             background: $grey;
             margin-left: 16px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $bpSmarth) and (max-width: $bpTablet) {
+    #page-auth {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+
+        aside {
+            img {
+                max-width: 300px;
+            }
+
+            padding: 30px 20px;
+        }
+
+        main {
+            margin: 30px 0;
+
+            .main-content {
+                a {
+                    margin: 30px 0 0 0;
+                }
+            }
+
+            .toogle-theme {
+                top: unset;
+                left: 15%;
+            }
         }
     }
 }

@@ -4,6 +4,10 @@ $roxoEscuro: #3c2092;
 $roxolight: #a384ff;
 $white: #f8f8f8;
 
+$bpSmarth: 320px;
+$bpTablet: 768px;
+$bpDesktop: 1024px;
+
 .room-code {
     height: 40px;
     border-radius: 8px;
@@ -74,5 +78,20 @@ $white: #f8f8f8;
 }
 
 .code {
-    margin-left: 15px;
+    margin-left: 15px; 
+}
+
+
+@media screen and (min-width: $bpSmarth) and (max-width: $bpTablet) {
+    .button-beauty {
+        a {
+            display: flex !important;
+
+            .code {
+                .sala-text {
+                    display: none;
+                }
+            }
+        }
+    }
 }

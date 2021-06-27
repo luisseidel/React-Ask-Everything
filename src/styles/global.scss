@@ -2,6 +2,10 @@ $white: #f8f8f8;
 $darkMode: #29292e;
 $lightDark: #333;
 
+$bpSmarth: 325px;
+$bpTablet: 768px;
+$bpDesktop: 1024px;
+
 * {
     margin: 0;
     padding: 0;
@@ -97,4 +101,13 @@ body, input, button, textarea {
     background-color: $white;
     border-radius: 20px;
     border: 3px solid $darkMode;
+}
+
+
+
+@media screen and (min-width: $bpSmarth) and (max-width: $bpTablet) {
+    .toogle-theme {
+        top: unset;
+        left: unset;
+    }
 }
